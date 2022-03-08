@@ -1,2 +1,2 @@
 # leolonghi.com
- My web resume!
+ My web [resume](https://leolonghi.com/)!
