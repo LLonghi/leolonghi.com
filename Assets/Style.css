@@ -123,6 +123,19 @@ article.work-exp .role {
     color: var(--color-secondary);
 }
 
+article.work-exp .tags {
+    margin: 1em 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    font-size: 10px;
+}
+
 article.work-exp:before {
     content: '';
     width: 1em;
@@ -157,6 +170,20 @@ article.work-exp:before {
     border-radius: 3px;
     background: var(--tag-background);
 }
+
+
+.skill-tag.junior {
+    border-left: solid 4px #9c27b0;
+}
+
+.skill-tag.mid {
+    border-left: solid 4px #3f51b5;
+}
+
+.skill-tag.senior {
+    border-left: solid 4px #ff9800;
+}
+
 
 
 .gradient-text {
