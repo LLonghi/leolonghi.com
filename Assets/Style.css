@@ -171,6 +171,10 @@ article.work-exp:before {
     background: var(--tag-background);
 }
 
+.skill-tag.active { 
+    background: #787878;
+}
+
 
 .skill-tag.junior {
     border-left: solid 4px #9c27b0;
