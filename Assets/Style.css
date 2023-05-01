@@ -123,6 +123,11 @@ article.work-exp .role {
     color: var(--color-secondary);
 }
 
+article.work-exp .description {
+    /* color: var(--color-secondary); */
+    padding-bottom: 5px;
+}
+
 article.work-exp .tags {
     margin: 1em 0 0;
     display: flex;
